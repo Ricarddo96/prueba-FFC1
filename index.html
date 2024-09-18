@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso a Tuproducciónmusical.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="divmadre">
+        <header>
+            <div class="cabecera">
+                <h1 id="title">Bienvenido a Tuproducciónmusical.com</h1>
+                <p id="description">Únete al equipo de Tuproducciónmusical y encuentra tu lugar en la industria</p>
+            </div>
+        </header>
+        <div class="formularioentero">
+            <form id="survey-form">
+                <div class="Nombre">
+                    <label id="name-label" for="name">Nombre completo</label>
+                    <input type="text" id="name" required placeholder="ej: Pepito Jiménez">
+                </div>
+                <div class="email">
+                    <label id="email-label" for="email">Dirección de email</label>
+                    <input type="email" id="email" required placeholder="ej: pepitojimenez1996@gmail.com">
+                </div>
+                <div class="número">
+                    <label id="number-label" for="number">Edad</label>
+                    <input type="number" id="number" min="18" max="99" required placeholder="ej: 25">
+                </div>
+                <div class="especialidad">
+                    <label for="dropdown">Especialidad</label>
+                    <select id="dropdown" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="produccion">Producción musical</option>
+                        <option value="mezcla">Mezcla e ingeniería de sonido</option>
+                        <option value="mastering">Mastering y control de calidad</option>
+                    </select>
+                </div>
+                <div class="experiencia">
+                    <label>Experiencia</label>
+                    <div>
+                        <label><input type="radio" name="experiencia" value="mucha" required>Mucha</label>
+                        <label><input type="radio" name="experiencia" value="alguna">Alguna</label>
+                        <label><input type="radio" name="experiencia" value="poca">Poca</label>
+                    </div>
+                </div>
+                <div class="opcionesopcionales">
+                    <label>Actualmente sabes</label>
+                    <div><label><input type="checkbox" name="habilidades" value="producir"> Producir</label></div>
+                    <div><label><input type="checkbox" name="habilidades" value="mezclar"> Mezclar</label></div>
+                    <div><label><input type="checkbox" name="habilidades" value="masterizar"> Masterizar</label></div>
+                    <div><label><input type="checkbox" name="habilidades" value="instrumento"> Tocar algún instrumento</label></div>
+                </div>
+                <div class="biografía">
+                    <label for="bio">Cuéntanos sobre ti</label>
+                    <textarea id="bio" placeholder="Escribe aquí..." required></textarea>
+                </div>
+                <div id="submitbutton">
+                    <input type="submit" value="Enviar" id="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

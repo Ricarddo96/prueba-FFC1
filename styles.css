@@ -1,0 +1,108 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://creativomusic.com/wp-content/uploads/image-9.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+div {
+    margin: 30px;
+}
+
+#divmadre {
+    background: linear-gradient(rgba(129, 77, 18, 0.61), rgba(179, 110, 32, 0.61));
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+}
+
+header {
+    text-align: center;
+    text-shadow: 2px 2px 5px #ffffff
+}
+
+.cabecera {
+    padding-top: auto;
+}
+
+form {
+    text-align: left;
+}
+
+p {
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#name-label,
+#number-label,
+#email-label,
+#dropdown,
+#bio {
+    display: block;
+}
+
+#name,
+#email,
+#bio {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#bio {
+    height: 70px;
+}
+
+.cabecera {
+    padding: auto;
+    padding-bottom: 5px;
+    background-color: rgba(220, 180, 131, 0.5);
+}
+
+input {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+select {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.opcionesopcionales {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+textarea {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#formularioentero {
+    text-align: left;
+}
+
+#submitbutton {
+    text-align: center;
+}
+
+#submit{
+    background-color: rgb(180, 225, 180);
+}
+
+label {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px #000
+}
