@@ -29,6 +29,6 @@ const numbers = [1, 2, 3, 4, 5]; // Array
 
 // Imprimimos estos valores en la consola para que los veas
 console.log(age);
-console.log(isStudent);
-console.log(person);
+console.log(isBro);
+console.log(persona);
 console.log(numbers);
